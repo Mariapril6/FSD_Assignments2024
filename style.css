@@ -1,0 +1,74 @@
+.sheet {
+  color: blue;
+  width: 800px;
+  height: 400px;
+  position: relative;
+  top: 80px;
+  left: 250px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  border: 2px solid blue;
+  border-spacing: 0px 0px;
+}
+
+.row1,
+.row2,
+.row3 {
+  height: 40px;
+}
+
+.row3 {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  color: rgb(2, 42, 66);
+  width: 500px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+th {
+  border-bottom: 2px solid blue;
+  border-top: 2px solid blue;
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+  background-color: rgb(2, 42, 66);
+  color: white;
+}
+
+td {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid black;
+  width: 150px;
+}
+
+.heads {
+  font-weight: bold;
+  font-stretch: extended;
+  width: 200px;
+}
+
+th.term {
+  border-right: 2px solid blue;
+  border-left: 2px solid blue;
+  width: 265px;
+}
+
+.odd {
+  background-color: rgb(234, 182, 245);
+}
+
+.even {
+  background-color: rgb(246, 163, 229);
+}
+
+.subject {
+  width: 250px;
+  background-color: blueviolet;
+  color: white;
+}

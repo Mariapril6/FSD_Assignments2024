@@ -1,0 +1,11 @@
+body {
+  background-color: deeppink;
+  color: aliceblue;
+  text-align: center;
+}
+h1 {
+  color: aliceblue;
+  font-size: xx-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
