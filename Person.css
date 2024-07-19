@@ -1,0 +1,71 @@
+li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgb(115, 171, 171);
+  padding: 5px;
+  margin: 5px;
+}
+
+ul {
+  width: 60%;
+  position: relative;
+  left: 200px;
+}
+
+button {
+  background-color: #490609;
+  color: rgb(247, 246, 246);
+  border-color: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.data {
+  border-radius: 3px;
+  border: 1px solid rgb(40, 29, 45);
+  width: 300px;
+  height: 35px;
+  box-shadow: 1px 1px 1px 1px rgba(225, 209, 239, 0.922);
+  justify-content: center;
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgb(27, 3, 77);
+  float: left;
+}
+
+form {
+  background-color: rgb(243, 197, 204);
+  position: relative;
+  left: 350px;
+  border: 2px groove rgb(78, 4, 4);
+  border-radius: 5px;
+  width: 310px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.submit {
+  background-color: rgba(0, 0, 255, 0.395);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 310px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px rgb(132, 1, 119);
+}
