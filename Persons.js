@@ -20,6 +20,16 @@ const Persons = () => {
 
     setPersons(filteredPersons);
   }
+
+  function onEdit(id, name, city, age) {
+    const person2 = persons.filter((person) => {
+      return person.id == id;
+    });
+    person2.name = name;
+    person2.city = city;
+    person2.age = age;
+  }
+
   function Add(newName, newCity, newAge) {
     if (len === 0) len += 1;
     else {
@@ -46,7 +56,14 @@ const Persons = () => {
       {persons && (
         <ul>
           {persons.map((item) => {
-            return <Person item={item} key={item.id} onDelete={onDelete} />;
+            return (
+              <Person
+                item={item}
+                key={item.id}
+                onDelete={onDelete}
+                onEdit={onEdit}
+              />
+            );
           })}
         </ul>
       )}
@@ -54,3 +71,6 @@ const Persons = () => {
   );
 };
 export default Persons;
+
+//git clone https://github.com/shaheryar-ahmed-ten/MERN-stack-course.git
+//git checkout branch-name
